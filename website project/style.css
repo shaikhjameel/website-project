@@ -1,0 +1,222 @@
+*{
+    font-family: 'Kalnia', serif;
+font-family: 'Lobster', sans-serif;
+font-family: 'Roboto Slab', serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.socialicons{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    padding: 10px
+}
+.nav-item a{
+    font-weight: bold;
+    color: black
+}
+.welcome{
+    color: crimson;
+}
+.carousel-item h5,h5,h5{
+    color:red
+}
+.carousel-item p,p,p{
+    color:blue;
+}
+.carousel-item img{
+    background-color: rgb(44, 44, 102);
+}
+.card{
+    font-size: larger;
+    margin: 20px;
+}
+.card-title:hover{
+    background-color: rgb(7, 139, 148);
+    cursor: pointer;
+    text-align: center;
+}
+.card-text p{
+    font-weight: bold
+}
+.card h4{
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+.heading2{
+    margin: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.my-title {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;  
+}
+.card-body{
+    text-align: center;
+    font-weight: bold;
+}
+.title h1{
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.title h1::after{
+    height: 1px;
+    width: 230px;
+    background-color: #000;
+    display: block;
+    margin: auto;
+}
+.services{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+}
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background-color: #efefef;
+    cursor: pointer;
+}
+.card .icons{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.card p{
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #5e5e5e;
+}
+.button{
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2c677c;
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.button:hover{
+    background-color: #0c92d5;
+    transition: 0.4s ease;
+}
+/* card button code */
+.mybutton{
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000608;
+    padding: 15px;
+    border-radius: 5px;
+    letter-spacing: 5px;
+    margin-right: 40px;
+    justify-content: center;  
+}
+.mybutton:hover{
+    background-color: blue;
+    transition: 0.5s;   
+}
+/* footer */
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+    
+
+
+    
